@@ -1,5 +1,4 @@
 import os
-import numpy as np
 import pandas as pd
 import seaborn as sns
 import xgboost as xgb
@@ -10,12 +9,12 @@ from sklearn.pipeline import make_pipeline
 from sklearn.metrics import auc, roc_auc_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import RepeatedStratifiedKFold
+# from sklearn.model_selection import cross_val_score
+# from sklearn.model_selection import RepeatedStratifiedKFold
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import average_precision_score, precision_recall_curve
 from sklearn.metrics import PrecisionRecallDisplay, precision_score, recall_score
-from xgboost import plot_importance
+# from xgboost import plot_importance
 
 # loading .env file
 load_dotenv()
