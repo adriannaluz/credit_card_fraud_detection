@@ -154,6 +154,10 @@ cython_debug/
 
 # local data
 */data
+*.png
+
+# environment file
+.env
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
